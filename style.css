@@ -1,0 +1,180 @@
+body {
+	font-family: Arial, sans-serif;
+	background: rgb(230, 245, 238);
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(11, 88, 45);
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.buttoncontainer {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 400px;
+	margin: 0 auto;
+    
+}
+
+.indexbutton {
+	background-color: rgb(11, 88, 45);
+	color: white;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 8px;
+	border: 2px solid rgb(11, 88, 45);
+    transition: 0.4s ease-in-out;
+}
+
+.indexbutton:hover {
+	background-color: white;
+	color: rgb(11, 88, 45);
+	border-color: rgb(11, 88, 45);
+	transform: scale(1.1);
+}
+
+
+.enginegrid {
+	display: grid;
+	grid-template-columns: 420px 420px;
+	grid-auto-rows: auto;
+	column-gap: 20px;
+	row-gap: 20px;
+	max-width: 900px;
+	margin: 0 auto 40px auto;
+	justify-content: center;
+}
+
+.enginesection {
+	background: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 6px rgb(0, 0, 0, 0);
+}
+
+.enginetable {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.enginetable th,
+.enginetable td {
+	border: 1px solid rgb(150, 150, 150);
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.enginetable th {
+	background: rgb(230, 245, 238);
+	color: rgb(11, 88, 45);
+	font-weight: bold;
+}
+
+.wait {
+	max-width: 700px;
+	margin: 0 auto 40px auto;
+	padding: 20px;
+	background: rgb(255, 255, 255);
+	border-radius: 8px;
+	box-shadow: 0px 2px 6px rgb(0, 0, 0, 0);
+}
+
+.waitlist {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.waitlist th,
+.waitlist td {
+	border: 1px solid rgb(150, 150, 150);
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.waitlist th {
+	background: rgb(230, 245, 238);
+	color: rgb(11, 88, 45);
+	font-weight: bold;
+}
+
+.waitentry {
+	margin-bottom: 20px;
+}
+
+.waitinput {
+	padding: 10px;
+	font-size: 16px;
+	width: 200px;
+	margin-right: 10px;
+	border: 1px solid rgb(150, 150, 150);
+	border-radius: 6px;
+}
+
+
+.logobutton {
+	display: inline-block;
+	border-radius: 8px;
+	border: 2px solid transparent;
+}
+
+.logobutton img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+    border: 2px solid transparent;
+	transition: 0.4s ease-in-out;
+	border-radius: 6px;
+}
+
+
+
+.logobutton:hover img {
+	border: 2px solid rgb(11, 88, 45);
+	background-color: white;
+    transform: scale(1.1, 1);
+}
+
+
+.vendorcontainer {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	gap: 20px;
+	justify-content: center;
+	margin: 0 auto;
+   
+}
+
+
+.homebutton {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: rgb(11, 88, 45);
+	color: white;
+	padding: 10px 15px;
+     transition: 0.4s ease-in-out;
+	border-radius: 6px;
+	text-decoration: none;
+	border: 2px solid rgb(11, 88, 45);
+	font-size: 16px;
+}
+
+.homebutton:hover {
+	background-color: white;
+	color: rgb(11, 88, 45);
+	transform: scale(1.1);
+}
